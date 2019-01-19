@@ -13,23 +13,28 @@ public class handler : MonoBehaviour {
 	void Update () {
 		
 	}
-    public  void callbtn(){
-        Application.OpenURL("tel://7738329546");
+    public  void callbtn()
+    {
+        Application.OpenURL("tel://9824524884");
 
     }
     public void emailbtn()
     {
-        Application.OpenURL("//");
+        Application.OpenURL("mailto://khushboolakhani1974@gmail.com");
     }
     public void OpenWebsite()
     {
-        Application.OpenURL("http://www.vstakesolutions.com/");
+        Application.OpenURL("http://www.Vishallakhani.info/");
     }
     public void SendMsg()
     {
         Application.OpenURL("tel://7738329546");
     }
-    public void OpenLinkedIn(){
-        Application.OpenURL("https://www.linkedin.com/in/umang-bilaney-3a2791106?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BjrqFKWGmST6nle1FoIV99w%3D%3D");
+    public void OpenFacebook(){
+        Application.OpenURL("https://www.facebook.com/khushboo.lakhani.71");
+    }
+    public void OpenInstagram()
+    {
+        Application.OpenURL("https://www.instagram.com/khushboolakhani74/");
     }
 }
